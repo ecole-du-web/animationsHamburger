@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animations</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>Animations d'icônes Hamburger</h1>
+
+    <div class="container">
+
+        <div class="box">
+            <div class="contLigne btn1">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn2">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn3">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn4">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="contLigne btn5">
+                <div class="lignesM"></div>
+                <div class="lignesM"></div>
+                <div class="lignesM"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn6">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn7">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn8">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="contLigne btn9">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn10">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn11">
+               <div class="ligneUnique"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="contLigne btn12">
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+                <div class="lignes"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    
+const allBtn = document.querySelectorAll('.contLigne');
+
+allBtn.forEach(btn => {
+    btn.addEventListener('click', () => {
+        console.log("hello");
+        
+        btn.classList.toggle('active');
+    })
+})
+
+    </script>
+
+</body>
+</html>
